@@ -1,0 +1,167 @@
+
+@font-face {
+    src: url(fonts/Tropical-Regular.ttf);
+    font-family: tropical;
+}
+
+@font-face {
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: montserrat;
+}
+
+@font-face {
+    src: url(fonts/BethEllen-Regular.ttf);
+    font-family: beth;
+}
+
+body {
+    font-family: montserrat;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.topnav {
+    list-style: none;
+    text-align: right;
+    padding-top: 8px;
+    white-space: 0;
+    overflow: auto b;
+}
+
+.topnav li {
+    display: inline-block;
+    padding: 9px 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.topnav li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #008B87;
+}
+ 
+.topnav li:hover {
+    background-color: #fdfa72;
+}
+
+.topnav li a:hover {
+    color: #008B87;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-indent: -17px;
+    letter-spacing: 2px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: tropical;
+    color: #008B87;
+}
+
+.logo span {
+    font-family: montserrat;
+    font-size: 1.2em;
+    color: #f96574;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner .welcome {
+    position: absolute;
+    display: inline-block;
+    right: 0%;
+    top: 29%;
+    background-color: #008B87;
+    color: #fdfa72;
+    font-size: 50px;
+    padding: 0px 40px;
+}
+
+.banner h2 {
+    letter-spacing: 2px;
+    font-style: none;
+}
+
+.banner strong {
+    letter-spacing: 3.3px;
+    font-size: 1.18em;
+    font-style: normal;
+}
+
+.images {
+    text-align: center;
+    margin: 60px 0px;
+    white-space: nowrap;
+    text-indent: -0.5cm;
+}
+
+.images li {
+    display: inline-block;
+    width: 38%;
+    margin: 0px 3%;
+    text-decoration: none;
+}
+
+.images li img {
+    max-width: 100%;
+}
+
+main {
+    display: inline-block;
+    padding: 40px 0px;
+}
+
+main .CV {
+    margin: 0;
+}
+
+.CV strong {
+    color: #008B87;
+    font-size: 80px;
+    padding-: 2px;
+}
+
+.CV span {
+    color: #f96574;
+}
+
+.CV img {
+    padding: 0;
+    margin: 20px;
+    max-width: 100%;
+}
+
+main article p {
+    font-family: beth;
+}
+
+input {
+    border: 3px solid green;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
